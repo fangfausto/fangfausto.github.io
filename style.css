@@ -1,48 +1,34 @@
-@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap');
-
-html {
-  font-size: 14px;
-  font-family: 'Inconsolata', monospace;
+body{
+    background-image: url(https://i.ytimg.com/vi/LC2akgHek0Q/maxresdefault.jpg);
+    background-size: cover;
+    background-position: left;
+    margin: 0;
 }
-
-.main {
-  font-size: 1.5rem;
-  color: black;
-  background-color: rgba(191, 185, 59, .5);
-  margin: 10px;
-  padding: 10px;
-  border: 10px solid bisque;
-  width: 50px;
-  height: 50px;
-  display: block;
-  vertical-align: top;
+.header{
+    width: 100%;
+    background-color: rgba(0,0,0,.2);
 }
-
-.one {
-
+.header ul{
+    text-align: center;
 }
-
-.two {
-  background-color: fuchsia;
-  position: relative;
-  top: 10px;
-  left: 25px;
+.header ul li{
+    list-style: none;
+    display: inline-block;
 }
-
-.three {
-  background-color: purple;
-  position: absolute;
-  top: 15px;
-  left: 15px;
-  width: 20px;
-  height: 20px;
-  z-index: 10;
+.header ul li a{
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 2px;
+    font-weight: 600;
+    padding: 25px;
 }
-
-.four {
-
+.video{
+    width: 100%;
 }
-
-.five {
-  position: relative;
+.video iframe{
+    margin-left: 50vh;
 }
