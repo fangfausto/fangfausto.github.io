@@ -5,7 +5,7 @@
 }
 
 body{
-    background-image: url(https://i.ytimg.com/vi/LC2akgHek0Q/maxresdefault.jpg);
+    background-image: url(https://nyuad.nyu.edu/en/events/2022/november/master-of-fine-arts-open-studio/_jcr_content/eventdetail/image.img.jpg);
     background-size: cover;
     background-position: left;
     overflow-x: hidden;
@@ -13,6 +13,9 @@ body{
 .header{
     width: 100%;
     background-color: #57068c;
+    top: 0;
+    left: 0;
+
 }
 .header ul{
     text-align: center;
@@ -28,7 +31,6 @@ body{
     text-transform: uppercase;
     color: #fff;
     font-size: 20px;
-
     letter-spacing: 2px;
     font-weight: 600;
     padding: 25px;
@@ -43,7 +45,7 @@ body{
 }
 .intro{
     text-align: center;
-    margin-top: 80px;
+    margin-top: 30px;
     margin-bottom: 60px;
 }
 .intro h1{
@@ -63,4 +65,15 @@ body{
     background-color: white;
     margin-top: 30px;
     padding: 10px;
+    text-align: center;
+    box-shadow: 0px -10px 10px;
+    display: grid;
+    grid-template-columns: 30vw 40vw 30vw;
+}
+.gridItemText{
+    margin-top: 20px;
+    grid-column: 2;
+}
+.gridItemText h2{
+    margin-top: 20px;    
 }
