@@ -1,10 +1,55 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title></title>
-  </head>
-  <body>
-    page 2 whatever
-  </body>
+
+<head>
+  <meta charset="utf-8">
+  <title>Book a Tour - Saadiyat Campus</title>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!--Icons library-->
+  <script src="script.js"></script>
+</head>
+
+<body id="b2">
+  <!--Header-->
+  <div class="header">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li class="booking"><a href="#">Book a Tour</a></li>
+    </ul>
+  </div>
+  <!--Finish of header-->
+  <form class="forms">
+    <div class="field">
+      <label for="firstname" id="first">First name: </label>
+      <input type="text" name="firstname" required>
+    </div>
+    <div class="field">
+    <label for="lastname">Last name: </label>
+    <input type="text" name="lastname" required>
+  </div>
+  <div class="field">
+    <label for="email">email: </label>
+    <input type="email" name="email" required>
+  </div>
+  <div class="field">
+    <input type="radio" name="sex" id="male" value="Male">
+    <label for="male">Male</label>
+    <input type="radio" name="sex" id="female" value="Female">
+    <label for="female">Female</label> 
+    <input type="radio" name="sex" id="other" value="Other">
+    <label for="female">Other</label> 
+  </div>
+    
+    <div>
+      <label for="date">Select Time of Visit:</label>
+    <input type="date" name="dateofvisit" id="dateofvisit">
+    </div>
+
+    <div class="btnSubmit">
+      <input type="submit" value="Submit!" onclick="clickedSubmit()">
+    </div>
+  </form>
+</body>
+
 </html>

@@ -31,20 +31,23 @@ function showSlides(n) {
         slides[slideIndex - 1].style.display = "block";
         dots[slideIndex - 1].className += " active";
     }
-    
+
 }
-function checkPhoto(){
-    if(document.getElementById("photo1").style.display == "block"){  
+function checkPhoto() {
+    if (document.getElementById("photo1").style.display == "block") {
         document.getElementById("title").innerText = "The Marketplace";
         document.getElementById("descriptionText").innerText = "This urban eatery includes Middle Eastern-themed, made to order grilled meats, shawarmas; El Fuego serves enchiladas, tacos, and burrito bowls.  Escape to New York for pizza, salads & garlic rolls or sink your teeth into our hand-crafted sandwiches, sushi, and wraps from the Deli, or build your own bowl of noodles from our Far East menu. The Marketplace also offers a variety of smoothies, acai bowls, and frozen treats."
+        document.body.style.backgroundImage = "url(food.png)"
     }
-    else if(document.getElementById("photo2").style.display == "block"){
+    else if (document.getElementById("photo2").style.display == "block") {
         document.getElementById("title").innerText = "The Arts Center";
         document.getElementById("descriptionText").innerText = "The Arts Center at NYU Abu Dhabi offers NYUAD compelling programming that connects to the curriculum and illuminates the scholarly pursuits of students and faculty. Its range of public programs aim to animate and enrich the cultural life of both Abu Dhabi and the university through interaction."
+        document.body.style.backgroundImage = "url(arts.png)"
     }
-    else if(document.getElementById("photo3").style.display == "block"){
+    else if (document.getElementById("photo3").style.display == "block") {
         document.getElementById("title").innerText = "Athletics Center";
-        document.getElementById("descriptionText").innerText= "The NYU Abu Dhabi Fitness Center is a state-of-the-art facility located in the Campus Center building. The facility is fully equipped with cardiovascular exercise, resistance, and free weight training equipment.";
+        document.getElementById("descriptionText").innerText = "The NYU Abu Dhabi Fitness Center is a state-of-the-art facility located in the Campus Center building. The facility is fully equipped with cardiovascular exercise, resistance, and free weight training equipment.";
+        document.body.style.backgroundImage = "url(sports.png)"
     }
 }
 //On load, set the photo 1.
@@ -53,4 +56,8 @@ document.addEventListener("DOMContentLoaded", (event) => {
     currentSlide(slideIndex);
     checkPhoto();
 });
+
+function clickedSubmit(){
+    alert("Thanks for submitting, we will contact you shortly.")
+}
 

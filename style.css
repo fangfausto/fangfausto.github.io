@@ -11,6 +11,8 @@ body {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
+    background-position-x: 0px;
+    font-family: 'Gotham', sans-serif;
 }
 
 /*------------------------------------------------------------------------------------------------------------------------------------------------------*/
@@ -242,12 +244,13 @@ body {
 }
 
 /*------------------------------------------------------------------------------------------------------------------------------------------------------*/
-.desc{
+.desc {
     text-align: center;
     width: 70vw;
     margin: auto;
 }
-.desc p{
+
+.desc p {
     font-size: 20px;
     font-weight: 400;
 }
@@ -316,4 +319,34 @@ footer {
     justify-content: right;
     color: white;
     font-weight: bold;
+}
+
+.forms{
+    justify-content: center;
+    text-align: center;
+    font-family: 'Gotham', sans-serif;
+    margin-top: 300px;
+    background-color:rgba(58, 58, 58, 0.3);
+    padding-top: 1px;
+}
+.field{
+    margin: 30px;
+    font-weight: 400;
+}
+.btnSubmit input{
+    border: none;
+    background-color: #57068c;
+    font-family: 'Gotham', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    padding: 20px;
+    cursor: pointer;
+    margin: 20px;
+}
+#b2{
+    background-image: url(https://nyuad.nyu.edu/en/events/2022/november/master-of-fine-arts-open-studio/_jcr_content/eventdetail/image.img.jpg);
+    background-size: cover;
+    background-position: left;
+    background-position-y: 50px;
 }
