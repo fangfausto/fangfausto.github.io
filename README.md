@@ -97,10 +97,10 @@ In future projects, I hope that I can improve my level of storytelling. I tried 
 ![cl]
 
 
-[github]: github.png
-[campus]: campus.png
-[cl]: campuslife.png
-[wireframe]: wireframe.png
-[ss]: style.png
-[fail]: fail.png
-[book]: book.png
+[github]: images\github.png
+[campus]: images\campus.png
+[cl]: images\campuslife.png
+[wireframe]: images\wireframe.png
+[ss]: images\style.png
+[fail]: images\fail.png
+[book]: images\ book.png
