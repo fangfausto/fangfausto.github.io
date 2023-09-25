@@ -59,7 +59,7 @@ As a last resource, I used a small icon library to make the media buttons pretty
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Challenges Faced
-Thankfully, as a CS major, I did not find big problems in the coding department. However, as a first-time web developer and a person with absolutely no experience whatsoever in design, thinking about the website was a hard task. I tinkered around different ideas until I made the wireframe for this project.<br>
+Thankfully, as a CS major, I did not find big problems in the coding department (mostly Javascript). However, as a first-time web developer and a person with absolutely no experience whatsoever in design, thinking about the website was a hard task. I tinkered around different ideas until I made the wireframe for this project.<br>
 ![wireframe]
 
 <a href="https://xd.adobe.com/view/dc93d2a6-94fe-458c-8922-79ee02be8b79-89c0/">
