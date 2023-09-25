@@ -1,6 +1,6 @@
 <h1>30MFF Website</h1>
 
-[campus]
+![campus]
 <h2>Project Title: Saadiyat Campus Tour</h2>
 <h3>Project Description: This is the website used to present the video "Saadiyat Campus Tour". The idea is to have a website that would highlight a few important spots around the NYUAD Campus, all while providing the opportunity to experience it by ourselves by booking a tour.</h3>
 <br>
@@ -33,6 +33,9 @@ This project is the website I have used to present my 30MFF film. Around the con
 <li>Allow viewers to better explore the spots they find interesting.</li>
 <li>Give the option to book a tour around campus if they want to.</li>
 </ul>
+
+![book]
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Concept and Inspiration
@@ -46,24 +49,39 @@ The concept behind this website is the fact that it is pointless to portray such
 For this project, I decided to utilize purely HTML, CSS and JavaScript. Even though I initially toyed around the idea of using Bootstrap and templates, I ultimately decided to challenge myself to use the basics and deal with the inconvenience of that. Thankfully, I did end up learning lots of valuable lessons, and being my first web development experience, I would say it worked out pretty well.
 <br>
 <br>
-For version control, I decided to utilize Github. In specific, I utilized Github Desktop, the client offered by Github to commit and pull without too much command-terminal related hassle. However, being only one person working on the project, the commits felt more like a _"just in case"_ save than an actual commit to the project. I think it will be more interesting in the future
+For version control, I decided to utilize Github. In specific, I utilized Github Desktop, the client offered by Github to commit and pull without too much command-terminal related hassle. However, being only one person working on the project, the commits felt more like a _"just in case"_ save than an actual commit to the project. That is why I rarely pushed commits to the repository until the final sprint. I think it will be more interesting in the future to collaborate with other users.
 <br>
 
 
-[github]
+![github]
 
 As a last resource, I used a small icon library to make the media buttons pretty. The website could live without that, and I could have also used downloaded icons. However, every designer will understand how much of a pain that would be in terms of sizes, formats, colors and other details. For that reason, I took the short path and added the library.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Challenges Faced
 Thankfully, as a CS major, I did not find big problems in the coding department. However, as a first-time web developer and a person with absolutely no experience whatsoever in design, thinking about the website was a hard task. I tinkered around different ideas until I made the wireframe for this project.<br>
+![wireframe]
 
 <a href="https://xd.adobe.com/view/dc93d2a6-94fe-458c-8922-79ee02be8b79-89c0/">
 You can check it here.</a>
+<br>
+<br>
+The biggest challenge here was to replicate that wireframe in a meaningful way. I did not want to blindly copy that. Moreover, the wireframe did not contain any colors or icons, so that was the enemy I had to face here. What colors do I use? What fonts do I apply? In the end, as this website is related to NYUAD, I wanted to respect the university's design decisions. For this I utilized the official NYU style guidelines.
 
 <br>
-I did not think CSS would be hard, but it is a complete new world to explore. I thankfully found a resource that allowed me to work easily on the stylesheet
-<br><br><a href="https://htmlcheatsheet.com/css/"> You can find it here</a>
+
+![ss]
+
+<a href="https://www.nyu.edu/employees/resources-and-services/media-and-communications/nyu-brand-guidelines/designing-in-our-style/typefaces-and-fonts.html">Click to check it.</a>
+
+<br>
+With no web development experience, I foolishly did not think CSS would be hard, but it is a complete new world to explore. 
+
+![fail]
+
+<br>
+Thankfully, I found a resource that allowed me to work easily on the stylesheet.
+<br><a href="https://htmlcheatsheet.com/css/"> You can find it here</a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -72,10 +90,17 @@ I did not think CSS would be hard, but it is a complete new world to explore. I 
 I think I could have a done a much better job at designing the layout of the website, but ultimately I am proud of my work here. I never designed a website before, so this was an amazing experience. Also, I think there are some smaller details such as font sizes and color discrepacies that would take a lot of time to improve, but certainly can be polished.
 <br>
 The initial concept, in my opinion, was respected and I fulfilled my purposes for this website and this film, in terms of programming goals and design objectives. I hope everyone likes it and hopefully can see the beauty of our campus.
+<br>
+<br>
+In future projects, I hope that I can improve my level of storytelling. I tried to offer the user a different experience by allowing them to book a tour, but did not succeed in telling an amazing story. Mostly because I didn't have one in special, after all showing around our campus sells and promotes an experience rather than a story, but regardless I think I can improve in this aspect.
 
-[cl]
+![cl]
 
 
 [github]: github.png
 [campus]: campus.png
 [cl]: campuslife.png
+[wireframe]: wireframe.png
+[ss]: style.png
+[fail]: fail.png
+[book]: book.png
