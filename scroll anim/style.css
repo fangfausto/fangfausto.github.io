@@ -1,0 +1,70 @@
+html{
+	height: 100%; 
+	overflow-x: hidden;
+	font-family:'Times New Roman', Times, serif;
+}
+body{
+    background-color: rgb(145, 38, 38);
+    background-size: cover;
+    margin: 0;
+}
+.divBarrier{
+    position: fixed;
+	bottom: -100px;
+    width: 100%;
+    background-image: url(img/cropbarrier.png);
+    z-index: 100;
+}
+
+
+.lightContainer{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: -5px;
+    margin-bottom: 100px;
+}   
+.lightContainer #light1{
+    transform: scaleX(-1);
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+.title h1{
+    color: white;
+    text-shadow: 2px 2px black;
+}
+.title h2{
+    color: white;
+    text-shadow: 2px 2px black;
+}
+.title img{
+    height: 230px;
+    width: 200px;
+}
+
+.artContainer{
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 0px;
+    opacity: 0;
+}
+.artContainer img{
+    margin-bottom: 50px;
+    cursor: pointer;
+    filter: brightness(0.5);  
+    max-width: 70%;  
+}
+
+.artContainer img:hover{
+    filter: brightness(1);
+}
