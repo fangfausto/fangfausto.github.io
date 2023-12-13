@@ -1,0 +1,352 @@
+@import url('https://fonts.cdnfonts.com/css/gotham-6');
+
+/*HTML basic reset of default values*/
+html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Gotham', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    background-position-x: 0px;
+    font-family: 'Gotham', sans-serif;
+}
+
+/*------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*CSS for the header. Basically a div with a list inside.*/
+.header {
+    width: 100%;
+    background-color: #57068c;
+    top: 0;
+    left: 0;
+    position: fixed;
+    box-shadow: 0px 3px 5px;
+    z-index: 100;
+}
+
+.header ul {
+    text-align: left;
+    padding-inline-start: 0px;
+    margin: 0;
+}
+
+.header ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+.header ul li a {
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-weight: 600;
+    padding: 25px;
+}
+
+.header ul li a:hover {
+    background-color: #4d057c;
+}
+
+/*------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+/*Video position*/
+.video {
+    text-align: center;
+    overflow: hidden;
+    margin-top: 20px;
+}
+
+.video video {
+    border: 3px solid;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+
+/*Intro will be our div containing the background image, the video and the text*/
+.intro {
+    text-align: center;
+    background-image: url(https://nyuad.nyu.edu/en/events/2022/november/master-of-fine-arts-open-studio/_jcr_content/eventdetail/image.img.jpg);
+    background-size: cover;
+    background-position: left;
+    padding-top: 20px;
+}
+
+.intro h1 {
+    font-size: 80px;
+    color: white;
+    text-shadow: 2px 2px 2px #000;
+    margin-top: 80px;
+}
+
+.intro h2 {
+    color: white;
+    text-shadow: 2px 2px 2px #000;
+    padding-left: 25%;
+    padding-right: 25%;
+    margin-top: 30px;
+}
+
+.bookingButton {
+    border: none;
+    background-color: #57068c;
+    font-family: 'Gotham', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    padding: 20px;
+    cursor: pointer;
+    margin: 20px;
+}
+
+.bookingButton:hover {
+    background-color: #4d057c;
+}
+
+/*------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*Grid and Grid items ("Campus life" text).*/
+.whitespace {
+    width: 100%;
+    background-color: rgb(226, 226, 226);
+    text-align: center;
+    box-shadow: inset 0px 10px 0px 0px 10px;
+    display: grid;
+    grid-template-columns: 30vw 40vw 30vw;
+}
+
+.gridItemText {
+    margin-top: 0px;
+    grid-column: 2;
+}
+
+.gridItemText h1 {
+    font-size: 60px;
+}
+
+.gridItemText h2 {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+
+/*------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+
+* {
+    box-sizing: border-box
+}
+
+/* Slideshow container */
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+    border: #717171;
+    border-width: 2px;
+    border-style: solid;
+    margin-top: 50px;
+}
+
+/* Hide the images by default */
+.mySlides {
+    display: none;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color*/
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Caption text */
+.text {
+    color: #f2f2f2;
+    font-size: 25px;
+    padding: 8px 10px;
+    position: absolute;
+    top: 8px;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px black;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 5px 20px;
+    background-color: rgba(187, 187, 187);
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+    background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+/*------------------------------------------------------------------------------------------------------------------------------------------------------*/
+.desc {
+    text-align: center;
+    width: 70vw;
+    margin: auto;
+}
+
+.desc p {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+
+
+
+/*------------------------------------------------------------------------------------------------------------------------------------------------------*/
+footer {
+    background-color: #57068c;
+    height: 18vh;
+    display: grid;
+    grid-template-columns: 21vw 20vw 20vw 18vw 21vw;
+}
+
+.about {
+    display: flex;
+    color: white;
+    grid-column: 2;
+    flex-direction: column;
+}
+
+.about a {
+    margin: 3px 0px;
+}
+
+.social {
+    grid-column: 3;
+}
+
+/* Style all font awesome icons */
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.social h3 {
+    color: white;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-instagram {
+    background-image: url("https://t3.ftcdn.net/jpg/01/14/77/58/360_F_114775804_4yfG9qbKp1NlF1RLo4MUlGIVj9MWhnnc.jpg");
+    background-size: cover;
+}
+
+.legal {
+    grid-column: 4;
+    justify-content: right;
+    color: white;
+    font-weight: bold;
+}
+
+.forms{
+    justify-content: center;
+    text-align: center;
+    font-family: 'Gotham', sans-serif;
+    margin-top: 300px;
+    background-color:rgba(58, 58, 58, 0.3);
+    padding-top: 1px;
+}
+.field{
+    margin: 30px;
+    font-weight: 400;
+}
+.btnSubmit input{
+    border: none;
+    background-color: #57068c;
+    font-family: 'Gotham', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    padding: 20px;
+    cursor: pointer;
+    margin: 20px;
+}
+#b2{
+    background-image: url(https://nyuad.nyu.edu/en/events/2022/november/master-of-fine-arts-open-studio/_jcr_content/eventdetail/image.img.jpg);
+    background-size: cover;
+    background-position: left;
+    background-position-y: 50px;
+}
