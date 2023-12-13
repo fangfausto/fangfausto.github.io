@@ -72,7 +72,7 @@ The biggest challenge here was to replicate that wireframe in a meaningful way. 
 
 ![ss]
 
-<a href="https://www.nyu.edu/employees/resources-and-services/media-and-communications/nyu-brand-guidelines/designing-in-our-style/typefaces-and-fonts.html">Click to check it.</a>
+<a href="https://www.nyu.edu/employees/resources-and-projects/media-and-communications/nyu-brand-guidelines/designing-in-our-style/typefaces-and-fonts.html">Click to check it.</a>
 
 <br>
 With no web development experience, I foolishly did not think CSS would be hard, but it is a complete new world to explore. 
